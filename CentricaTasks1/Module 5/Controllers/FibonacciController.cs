@@ -12,7 +12,7 @@ namespace FibancciService.Controllers
     {
         // GET: Fibonacci
         [HttpPost]
-        public IHttpActionResult MakePayment([FromBody] Fibonacci req)
+        public IHttpActionResult GenerateFibonacciSeries([FromBody] Fibonacci req)
         {
 
             try
